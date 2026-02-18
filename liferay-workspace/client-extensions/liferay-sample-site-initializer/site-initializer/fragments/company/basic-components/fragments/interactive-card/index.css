@@ -1,0 +1,4 @@
+.component-interactive-card img {
+	min-height: 80%;
+	object-fit: cover;
+}

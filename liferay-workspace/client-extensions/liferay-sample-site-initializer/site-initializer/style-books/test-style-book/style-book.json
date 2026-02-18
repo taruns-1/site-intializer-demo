@@ -1,0 +1,6 @@
+{
+	"frontendTokensValuesPath": "frontend-tokens-values.json",
+	"name": "Test Style Book Entry",
+    "defaultStyleBookEntry": true,
+	"thumbnailPath": "thumbnail.png"
+}

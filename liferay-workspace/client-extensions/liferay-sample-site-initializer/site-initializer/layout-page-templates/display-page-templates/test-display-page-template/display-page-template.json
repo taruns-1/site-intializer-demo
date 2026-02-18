@@ -1,0 +1,9 @@
+{
+	"contentSubtype": {
+		"subtypeKey": "Sample Structure"
+	},
+	"contentType": {
+		"className": "com.liferay.journal.model.JournalArticle"
+	},
+	"name": "Test Display Page Template 3"
+}

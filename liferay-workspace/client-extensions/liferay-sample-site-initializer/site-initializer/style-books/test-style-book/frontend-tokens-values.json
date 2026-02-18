@@ -1,0 +1,10 @@
+{
+  "blackColor": {
+    "cssVariableMapping": "black",
+    "value": "#0001"
+  },
+  "blockquoteFontSize": {
+    "cssVariableMapping": "blockquote-font-size",
+    "value": "var(--font-size-large)"
+  }
+}

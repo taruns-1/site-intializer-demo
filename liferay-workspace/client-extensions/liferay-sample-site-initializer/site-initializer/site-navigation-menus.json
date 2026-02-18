@@ -1,0 +1,15 @@
+[
+	{
+		"externalReferenceCode": "SITENAVIGATIONMENU2",
+		"menuItems": [
+			{
+				"displayIcon": "home",
+				"externalReferenceCode": "TESTSITENAVIGATIONMENUITEM1",
+				"friendlyURL": "/home",
+				"privateLayout": false,
+				"type": "layout"
+			}
+        ],
+		"name": "Test Site Navigation Menu"
+	}
+]
