@@ -37,7 +37,7 @@ gradle.liferayWorkspace {
 
 ---
 
-## ✅ Option 3 — Command Line (Recommended)
+## ✅ Option 3 — Command Line
 
 - Run deploy with a property override:
 
