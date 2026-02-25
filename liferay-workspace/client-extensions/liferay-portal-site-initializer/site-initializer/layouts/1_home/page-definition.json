@@ -1,0 +1,211 @@
+{
+  "pageElement": {
+    "pageElements": [
+      {
+        "definition": {
+          "indexed": true,
+          "layout": {
+          }
+        },
+        "pageElements": [
+          {
+            "definition": {
+              "fragment": {
+                "key": "BASIC_COMPONENT-image"
+              },
+              "fragmentConfig": {
+                "imageSize": "w-100"
+              },
+              "fragmentFields": [
+                {
+                  "id": "image",
+                  "value": {
+                    "fragmentLink": {
+                    }
+                  }
+                },
+                {
+                  "id": "image-square",
+                  "value": {
+                    "fragmentImage": {
+                      "description": {
+                        "value_i18n": {
+                          "en_US": ""
+                        }
+                      },
+                      "url": {
+                        "value_i18n": {
+                          "en_US": "/documents/d/emea-tech-talks/hero-image-jpg?imagePreview=1"
+                        }
+                      }
+                    },
+                    "fragmentLink": {
+                    }
+                  }
+                }
+              ],
+              "indexed": true
+            },
+            "type": "Fragment"
+          },
+          {
+            "definition": {
+              "gutters": true,
+              "indexed": true,
+              "modulesPerRow": 3,
+              "numberOfColumns": 3,
+              "reverseOrder": false,
+              "rowViewports": [
+                {
+                  "id": "landscapeMobile",
+                  "rowViewportDefinition": {
+                    "modulesPerRow": 1
+                  }
+                },
+                {
+                  "id": "portraitMobile",
+                  "rowViewportDefinition": {
+                  }
+                },
+                {
+                  "id": "tablet",
+                  "rowViewportDefinition": {
+                  }
+                }
+              ],
+              "verticalAlignment": "top"
+            },
+            "pageElements": [
+              {
+                "definition": {
+                  "columnViewports": [
+                    {
+                      "columnViewportDefinition": {
+                        "size": 12
+                      },
+                      "id": "landscapeMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {
+                      },
+                      "id": "portraitMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {
+                      },
+                      "id": "tablet"
+                    }
+                  ],
+                  "size": 4
+                },
+                "pageElements": [
+                  {
+                    "definition": {
+                      "fragment": {
+                        "key": "BASIC_COMPONENT-paragraph"
+                      },
+                      "fragmentConfig": {
+                      },
+                      "fragmentFields": [
+                        {
+                          "id": "element-text",
+                          "value": {
+                            "fragmentLink": {
+                            }
+                          }
+                        }
+                      ],
+                      "indexed": true
+                    },
+                    "type": "Fragment"
+                  }
+                ],
+                "type": "Column"
+              },
+              {
+                "definition": {
+                  "columnViewports": [
+                    {
+                      "columnViewportDefinition": {
+                        "size": 12
+                      },
+                      "id": "landscapeMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {
+                      },
+                      "id": "portraitMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {
+                      },
+                      "id": "tablet"
+                    }
+                  ],
+                  "size": 4
+                },
+                "pageElements": [
+                  {
+                    "definition": {
+                      "fragment": {
+                        "key": "BASIC_COMPONENT-heading"
+                      },
+                      "fragmentConfig": {
+                        "headingLevel": "h1"
+                      },
+                      "fragmentFields": [
+                        {
+                          "id": "element-text",
+                          "value": {
+                            "fragmentLink": {
+                            }
+                          }
+                        }
+                      ],
+                      "indexed": true
+                    },
+                    "type": "Fragment"
+                  }
+                ],
+                "type": "Column"
+              },
+              {
+                "definition": {
+                  "columnViewports": [
+                    {
+                      "columnViewportDefinition": {
+                        "size": 12
+                      },
+                      "id": "landscapeMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {
+                      },
+                      "id": "portraitMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {
+                      },
+                      "id": "tablet"
+                    }
+                  ],
+                  "size": 4
+                },
+                "type": "Column"
+              }
+            ],
+            "type": "Row"
+          }
+        ],
+        "type": "Section"
+      }
+    ],
+    "type": "Root"
+  },
+  "settings": {
+    "colorSchemeName": "01",
+    "masterPage": {
+    },
+    "themeName": "Classic"
+  }
+}
