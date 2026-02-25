@@ -1,0 +1,14 @@
+liferay-portal-site-initializer:
+    name: Liferay Portal Site Initializer
+    oAuthApplicationHeadlessServer: liferay-portal-site-initializer-oahs
+    siteExternalReferenceCode: LIFERAY_PORTAL
+    siteName: Liferay portal
+    type: siteInitializer
+liferay-portal-site-initializer-oahs:
+    .serviceAddress: localhost:8080
+    .serviceScheme: http
+    name: Liferay portal Site Initializer OAuth Application Headless Server
+    scopes:
+        -   Liferay.Headless.Site.everything
+    type: oAuthApplicationHeadlessServer
+
